@@ -1,0 +1,10 @@
+---
+
+# name will support CamelCase after issue #3
+name: thalemine_ontology_to_locus
+version: 0.1
+description: Given a gene ontology text description (not term ID), return genes that Thalemine logically maps to associate with said term
+type: query
+main_module: thalemine_ontology_to_locus.py
+whitelist: 
+    - apps.araport.org
